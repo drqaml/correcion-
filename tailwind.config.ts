@@ -22,6 +22,7 @@ const config: Config = {
     },
     colors: {
       transparent: "transparent",
+      current: 'currentColor',
       blanco: {
         1: "#ffffff",
         2: "#f6f6f6",
