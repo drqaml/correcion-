@@ -5,10 +5,11 @@ export default function DmfLogo() {
   return (
     <div className="w-full h-48 p-3 bg-negro-1 text-dorado rounded-2xl flex flex-row items-center justify-around">
       <Image
-        src="logoDorado.svg"
+        src="/logoDorado.png"
         width={90}
         height={90}
         alt="DMF logo"
+        priority
       />
       <div className={`${robotoCondensed.className} antialiased`}>
         <p className="text-4xl">DMF</p>
